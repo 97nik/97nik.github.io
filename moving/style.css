@@ -1,0 +1,25 @@
+.object {
+    position: absolute;
+}
+.van {
+    top: 45%;
+    left: 44%;
+    animation: object 1s infinite ease-in-out alternate;
+}
+
+#axis .rotate360cw {
+	
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    
+    animation: downUp 2s infinite ease-in-out; 
+
+}
+
+@keyframes downUp { 
+  from {margin-top: 10px;}  
+  50% {margin-top: 50px;}
+  to {margin-top: 10px;}
+}
